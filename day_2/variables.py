@@ -61,5 +61,15 @@ rad_circle=30
 pi=3.14
 area_of_circle=pi*(rad_circle**2)
 circum_of_circle=2*pi*rad_circle
+print('area_of_circle of 30 radius :', area_of_circle)
+print('circum_of_circle of 30 radius :', circum_of_circle)
 
-input('Radius :')
+
+rad_circle = float(input('Radius :'))
+area_of_circle=pi*(rad_circle**2)
+circum_of_circle=2*pi*rad_circle
+print('area_of_circle :', area_of_circle)
+print('circum_of_circle', circum_of_circle)
+
+
+help('keywords')
